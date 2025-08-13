@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tanvi — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="theme-toggle" id="themeToggle" aria-hidden="true">🌙</div>
+  <main class="container">
+    <header class="hero">
+      <div class="hero-inner">
+        <img class="avatar" src="avatar.png" alt="Tanvi avatar">
+        <div>
+          <h1>Hi, I'm <span class="accent">Tanvi</span></h1>
+          <p class="typing"><span id="typed"></span></p>
+          <p class="lead">Front-end developer building beautiful, accessible interfaces.</p>
+          <div class="cta">
+            <a href="#projects" class="btn">View Work</a>
+            <a href="#contact" class="btn ghost">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="projects" class="cards">
+      <h2>My Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Hirely — Job Portal</h3>
+          <p>Responsive job portal frontend with modern UI & matching algorithm demo.</p>
+        </article>
+        <article class="card">
+          <h3>To Do List</h3>
+          <p>Minimalist to-do list with responsive design and smooth UI interactions..</p>
+        </article>
+        <article class="card">
+          <h3>Word Scramble Game using python</h3>
+          <p>The Word Scramble Game is a fun Python project that challenges users to guess the correct word </p>
+        </article>
+        <article class="card">
+          <h3>Automated Smart Dustbin using Arduino</h3>
+          <p>Touchles smart dustbin using Arduino that automatically opens and closes its lid via ultrasonic sensor and servo motor to promote hygiene. </p>
+        </article>
+      
+        <article class="card">
+          <h3>NeonCalc</h3>
+          <p>Styled scientific calculator with keyboard support.</p>
+        </article>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" rows="4" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+    <footer class="footer">Made with ❤️ by Tanvi</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
